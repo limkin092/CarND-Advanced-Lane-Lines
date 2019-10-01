@@ -119,7 +119,7 @@ elif center < 0:
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
-Here's a [link to my video result](./project_video1.mp4)
+[![Video of my pipline](https://img.youtube.com/vi/9S9xiFzlOiY/0.jpg)](https://youtu.be/9S9xiFzlOiY)
 
 ### Discussion
 
