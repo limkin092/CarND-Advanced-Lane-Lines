@@ -14,14 +14,14 @@
 
 [//]: # (Image References)
 
-[image1]: ./output_images/calibration17.png
-[image2]: ./output_images/undisturbed_image.png
-[image3]: ./output_images/color_combined_img.jpg
+[image1]: ./output_images/calibration18.png
+[image2]: ./output_images/undist_image.png
+[image3]: ./output_images/color_only_combined_img.png
 [image4]: ./output_images/pers_trans_image.jpg
-[image5]: ./output_images/lane_findg1.jpg
-[image6]: ./output_images/lane_findg2.jpg
-[image7]: ./output_images/lane_findg4.jpg
-[image8]: ./output_images/lane_findg3
+[image5]: ./output_images/lane_find1.png
+[image6]: ./output_images/lane_find2.png
+[image7]: ./output_images/lane_find4_21.jpg
+[image8]: ./output_images/lane_find3.jpg
 
 #### 1.Provide a  Writeup / README that includes all the rubric points and how you addressed each one.  You can submit your writeup as markdown or pdf.  [Here](https://github.com/udacity/CarND-Advanced-Lane-Lines/blob/master/writeup_template.md) is a template writeup for this project you can use as a guide and a starting point.  
 
@@ -57,15 +57,15 @@ This is the `source` and the `destination` for the `perspective transformation` 
 
 ```
 src:
-    top_right = [707,464]
-    bottom_right = [1049,682]
-    bottom_left = [258,682]
-    top_left = [575,464]
+    top_right = [700,458]
+    bottom_right = [1040,686]
+    bottom_left = [250,686]
+    top_left = [580,458]
 dst:
-    top_right = [w-450,0]
-    bottom_right = [w-450,h]
-    bottom_left = [450,h]
-    top_left = [450,0]
+    top_right = [1040,0]
+    bottom_right = [1040,686]
+    bottom_left = [250,686]
+    top_left = [250,0]
 ```
 This is the picture after using the `comibined thresholds`, `undistortion` and `perspective transformation`:
 
